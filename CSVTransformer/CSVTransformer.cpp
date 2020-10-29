@@ -1,5 +1,4 @@
-// CSVTransformer.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Author: Zachary Gamble
 
 #include <iostream>
 #include <fstream>
@@ -29,7 +28,6 @@ int main(int argc, char* argv[])
 		}
 	}
 
-	// convert data to raw bytes
 	ofstream out(argv[2], ios_base::binary);
 	if (!out) {
 		cout << "Output file open failed...\n";
